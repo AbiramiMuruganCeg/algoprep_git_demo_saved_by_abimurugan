@@ -28,17 +28,29 @@ git config --list
   - git has three areas ->working directory -> current changes
   - Intermediate layer ->staging
 
+  ## terms
+
+  **Repository (Repo):**
+
+  A storage location for your project, including all the files and their entire history of their changes.
+
+  **staging area**-->Tracked Changes
+
+  **Working directory**-->UnTracked Changes
+
 # git workflow
 
-* 'git init' -->Wherever you initiate the git an empty
-   git repository is created.(tracker without any history)
-* 'git add' --> added to staging area (snapshot of the code is added).
-* '.gitignore' : this is the file where you can put the files and folder name which you don't want to be tracked.
-* 'git add .' :->to send all the files current snap shot to
-staging area.
+- 'git init' -->Wherever you initiate the git an empty
+  git repository is created.(tracker without any history)
+- 'git add' --> added to staging area (snapshot of the code is added).
+- '.gitignore' : this is the file where you can put the files and folder name which you don't want to be tracked.
+- 'git add .' :->to send all the files current snap shot to
+  staging area.
+- 'git status' ->difference between staging and working directory.
+- g'commit '->git commit -m "any name"
+- 'git log'->to check the change status
 
-
-- hint
+* hint
   git add script.js
   git status
   node script.js
