@@ -50,6 +50,7 @@ git config --list
 - g'commit '->git commit -m "any name"
 - 'git log'->to check the change status
 
+
 * hint
   git add script.js
   git status
