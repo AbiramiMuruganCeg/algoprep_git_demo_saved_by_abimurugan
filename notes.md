@@ -47,9 +47,9 @@ git config --list
 - 'git add .' :->to send all the files current snap shot to
   staging area.
 - 'git status' ->difference between staging and working directory.
-- g'commit '->git commit -m "any name"
-- 'git log'->to check the change status
-
+- g'commit '->git commit -m "commit message" ->a snap shot of the changes made to the repository. Each commit has a unique id and a message describing the changes.
+- 'git log'->list of commits
+- 'git checkout' *hashcode*
 
 * hint
   git add script.js
